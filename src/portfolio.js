@@ -1,7 +1,12 @@
-import sunbathingIcon from './media/appIcons/sunbathingIcon.png';
-//import stickIcon from './media/appIcons/dunkIcon.png';
-import candyCubeIcon from './media/appIcons/candyCubeIcon.png';
-import saveHerIcon from './media/appIcons/saveHerIcon.png';
+import stickIcon from './media/appIcons/stickIcon.png';
+import takeIcon from './media/appIcons/takeIcon.png';
+import dontIcon from './media/appIcons/dontIcon.png';
+import easterIcon from './media/appIcons/easterIcon.png';
+import pusherIcon from './media/appIcons/pusherIcon.png';
+import zombieIcon from './media/appIcons/zombieIcon.png';
+import brideIcon from './media/appIcons/brideIcon.png';
+import foreIcon from './media/appIcons/foreIcon.png';
+import grabIcon from './media/appIcons/grabIcon.png';
 
 const header = {
     // all the properties are optional - can be left empty or deleted
@@ -39,7 +44,7 @@ const projects = [
             'Reaching the opponent\'s area enables dunk mode where you can get style points and make a slam dunk.',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
-        //appIcon: stickIcon,
+        appIcon: stickIcon,
         videoUrl: "https://vimeo.com/641868531",
         details: [
             "Development platform: Unity",
@@ -56,7 +61,7 @@ const projects = [
             'Game aim is tapping on the right time',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
-        // appIcon: siegeHeroIcon,
+        appIcon: foreIcon,
         videoUrl: "https://vimeo.com/641925710",
         details: [
             "Development platform: Unity",
@@ -72,7 +77,7 @@ const projects = [
             'When egg are crack the visual is obi fluid',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
-        //appIcon: popcornIcon,
+        appIcon: easterIcon,
         videoUrl: "https://vimeo.com/641927501",
         details: [
             "Development platform: Unity",
@@ -89,7 +94,7 @@ const projects = [
             'Part of Bride dress is obi rope',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
-        //appIcon: islandIcon,
+        appIcon: brideIcon,
         videoUrl: "https://vimeo.com/641928432",
         details: [
             "Development platform: Unity",
@@ -105,7 +110,7 @@ const projects = [
             'Player can push enemies with those objects',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
-        appIcon: sunbathingIcon,
+        appIcon: pusherIcon,
         videoUrl: "https://vimeo.com/642220080",
         details: [
             "Development platform: Unity",
@@ -121,7 +126,7 @@ const projects = [
             'Main goal is dragging the girl into right poses',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
-        // appIcon: snapIcon,
+        appIcon: takeIcon,
         videoUrl: "https://vimeo.com/642219604",
         details: [
             "Development platform: Unity",
@@ -136,7 +141,7 @@ const projects = [
             'Goal is reaching the right amount of food before enemies take them',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
-        //appIcon: colorMixerIcon,
+        appIcon: grabIcon,
         videoUrl: "https://vimeo.com/642219983",
         details: [
             "Development platform: Unity",
@@ -145,44 +150,35 @@ const projects = [
     },
     {
         name: 'Dont Let Cross',
-        short_description: 'Match and destroy the cubes',
+        short_description: 'Tape the door to block the enemies ',
         description:
-            'A simple cube puzzle game where you need to match colors to destroy little cubes inside.' +
-            ' After you match the cubes, if they are destroyed the cubes currently above fall down.' +
-            ' Each time cubes fall, new matches are checked, so it is possible to match multiple sets of cubes to make combos.' +
-            ' Also possible to rotate the cube to find more matches.' +
-            ' The goal in each level to reach the target score without running out of time.',
+            'Goal is keeping enemies behind the door' +
+            'Levels have different stages',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
-        appIcon: candyCubeIcon,
+        appIcon: dontIcon,
         videoUrl: "https://vimeo.com/641930163",
         details: [
             "Development platform: Unity",
-            "Development time: ~1 week",
-            "Biggest challenge was to make the cubes fall down depending on the rotation of the cube instead of physics",
-            "Used a matrix to hold a reference to all the cubes and find out if any of the cubes are missing below a cube to make it fall",
-            "When a matching is searched, the cubes on the edges allow matches to follow to the connected sides of the cubes"
+            "Development time: ~3 week",
+            "Unity Assets: Obi Rope, Puppet Master",
         ],
     },
     {
         name: 'Zombie Vampire Run',
-        short_description: 'Save the girl from the zombies',
+        short_description: 'Transform into a vampire',
         description:
-            'A game where you play the role of a dual power wielding super hero.' +
-            'Protect the girl at all times by casting ice beam on the zombies running after her. ' +
-            'When a zombie is completely frozen, automatically send a fireball to shatter it and inflict damage around the impact. ' +
-            'Recommended to use the objects around to make your job easier such as the wooden bridge and explosive barrels. ',
+            'Game starts with zombie player, transforms into a vampire throughout the levels' +
+            'Player collects clones in each level and fight with enemies' +
+            'Game has level ending mechanic, player drags clones into coffins',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
-        appIcon: saveHerIcon,
+        appIcon: zombieIcon,
         videoUrl: "https://vimeo.com/642220364",
         details: [
             "Development platform: Unity",
-            "Development time: ~2 weeks",
-            'used splines for the movement of camera, hero and the girl',
-            'relied on NavMesh to control the zombies',
-            'custom shaders on ice beam, fire ball and explosions',
-            'separate but synchronized animations for the level end sequence',
+            "Development time: ~1 month",
+            'Unity asset: Puppet Master',
         ],
     },
 ]
@@ -195,7 +191,6 @@ const skills = [
     'HTML',
     'CSS',
     'JavaScript',
-    'React',
     'Git',
     'Java',
 ]
