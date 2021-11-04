@@ -6,7 +6,6 @@ import popcornIcon from './media/appIcons/popcornIcon.png';
 import candyCubeIcon from './media/appIcons/candyCubeIcon.png';
 import snapIcon from './media/appIcons/snapIcon.png';
 import saveHerIcon from './media/appIcons/saveHerIcon.png';
-import torchMasterIcon from './media/appIcons/torchMasterIcon.jpg';
 
 const header = {
     // all the properties are optional - can be left empty or deleted
@@ -20,8 +19,8 @@ const about = {
     role: 'Game Developer',
     description:
         [
-            'High School - Ankara Atatürk \'11',
-            'B.S. in CS - Bilkent University \'15',
+            'High School - Ankara Atatürk \'14',
+            'B.S. in CS - Bilkent University \'19',
         ],
     resume: 'https://example.com',
     social: {
@@ -84,7 +83,7 @@ const projects = [
         ],
     },
     {
-        name: 'Island Clash',
+        name: 'Bride To Be',
         short_description: 'Merge the islands and defeat the boss',
         description:
             'Mini strategy game in which you control little islands that carry your army. ' +
@@ -105,7 +104,7 @@ const projects = [
         ],
     },
     {
-        name: 'Sunbathing',
+        name: 'Pusher Escape',
         short_description: 'Get the perfect tan',
         description:
             'A summer themed game where you try to get as much sunlight as possible. ' +
@@ -127,7 +126,7 @@ const projects = [
         ],
     },
     {
-        name: 'Snap It All',
+        name: 'Take a Photo',
         short_description: 'Get rid of annoying flies',
         description:
             'Flies are especially annoying in the summer. ' +
@@ -144,7 +143,7 @@ const projects = [
         ],
     },
     {
-        name: 'Color Mixer',
+        name: 'Grab Your Meal',
         short_description: 'Mix the colors to reach the destination',
         description:
             'Each level has a target color as a destination.' +
@@ -163,7 +162,7 @@ const projects = [
         ],
     },
     {
-        name: 'Candy Cube',
+        name: 'Dont Let Cross',
         short_description: 'Match and destroy the cubes',
         description:
             'A simple cube puzzle game where you need to match colors to destroy little cubes inside.' +
@@ -184,7 +183,7 @@ const projects = [
         ],
     },
     {
-        name: 'Save Her',
+        name: 'Zombie Vampire Run',
         short_description: 'Save the girl from the zombies',
         description:
             'A game where you play the role of a dual power wielding super hero.' +
@@ -202,23 +201,6 @@ const projects = [
             'relied on NavMesh to control the zombies',
             'custom shaders on ice beam, fire ball and explosions',
             'separate but synchronized animations for the level end sequence',
-        ],
-    },
-    {
-        name: 'Torch Master',
-        short_description: 'Light up as many cakes as you can',
-        description:
-            'In this birthday party themed game, your task is to light up as many cakes as you can.' +
-            ' Don\'t let your gas run out by timing your moves precisely' +
-            ' But watch out for the bomb cakes!',
-        sourceCode: 'https://github.com',
-        livePreview: 'https://github.com',
-        appIcon: torchMasterIcon,
-        videoUrl: "https://vimeo.com/615725255",
-        details: [
-            "Development platform: Unity",
-            "Development time: ~1 week",
-            "Simple collider game where cakes spawn at a distance and move towards camera",
         ],
     },
 ]
