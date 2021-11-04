@@ -70,23 +70,17 @@ const projects = [
         ],
     },
     {
-        name: 'Pop My Corn',
-        short_description: 'Pop the corns and save the boy stuck inside',
+        name: 'Easter Egg Runner',
+        short_description: 'Egg clones in runner platform',
         description:
-            'Save the little guy stuck inside the popcorn machine. ' +
-            'The corns will pop where you touch your finger. ' +
-            'Have to play carefully and choose which corns to pop, otherwise your guy may get stuck in a corner somewhere. ',
+            'Egg ',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
         appIcon: popcornIcon,
-        videoUrl: "https://vimeo.com/615724463",
+        videoUrl: "https://vimeo.com/641927501",
         details: [
             "Development platform: Unity",
-            "Development time: ~1 week",
-            "Depended heavily on physics",
-            "Although game is 3D, relied on a single layer of corns tightly fit between invisible quads so the visuals were lacking",
-            "The mechanics are somewhat original and may turn out to be good if used in a different context",
-            "Custom blendshape animations for popping corns as well as a custom glass machine designed by the 3D artist",
+            "Development time: ~3 week",
         ],
     },
     {
