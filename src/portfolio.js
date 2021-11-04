@@ -1,10 +1,9 @@
 import sunbathingIcon from './media/appIcons/sunbathingIcon.png';
 import colorMixerIcon from './media/appIcons/colorMixerIcon.jpg';
-import stickIcon from './media/appIcons/dunkIcon.png';
+//import stickIcon from './media/appIcons/dunkIcon.png';
 import islandIcon from './media/appIcons/islandIcon.png';
 import popcornIcon from './media/appIcons/popcornIcon.png';
 import candyCubeIcon from './media/appIcons/candyCubeIcon.png';
-import siegeHeroIcon from './media/appIcons/siegeHeroIcon.png';
 import snapIcon from './media/appIcons/snapIcon.png';
 import saveHerIcon from './media/appIcons/saveHerIcon.png';
 import torchMasterIcon from './media/appIcons/torchMasterIcon.jpg';
@@ -49,27 +48,25 @@ const projects = [
     videoUrl: "https://vimeo.com/641868531",
     details: [
       "Development platform: Unity",
-      "Development time: ~2 months",
+      "Development time: ~2 week",
       'had a reference one of Google halloween mini game',
     ],
   },
   {
-    name: 'Siege Hero',
-    short_description: 'Destroy the enemy army',
+    name: 'Foresight Game',
+    short_description: 'Tap in true position',
     description:
-      'You control a group of soldiers consisting of two types: infantry and cavalry.' +
-      ' Infantry is worth 1 point, whereas cavalry units are worth 2 points.' +
-      ' The purpose is to defeat the enemy groups and gather their soldiers into your army.' +
-      ' Each level has a correct order of battles in order to be able to pass them',
+      'Every level has different scenerio' +
+      'Levels have stages,character animate different poses in stages' +
+      'Game aim is tapping on the right time' ,
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    appIcon: siegeHeroIcon,
-    videoUrl: "https://vimeo.com/615725042",
+   // appIcon: siegeHeroIcon,
+    videoUrl: "https://vimeo.com/641925710",
     details: [
       "Development platform: Unity",
-      "Development time: ~1 week",
-      "relied on NavMesh for AI pathfinding and movement",
-      "unfortunately not representing actual gameplay since developed for a short ad video in mind",
+      "Development time: ~2 month",
+      "I worked with unity timeline feature in this game",
     ],
   },
   {
