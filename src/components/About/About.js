@@ -23,7 +23,7 @@ const About = () => {
 
             <div className='about__contact center'>
                 {resume && (
-                    <a href='/EkinsuBozdagCV.pdf' target="_blank" download>
+                    <a href='/Portfolio/EkinsuBozdagCV.pdf' target="_blank" download>
           <span type='button' className='btn btn--outline'>
               Resume
             </span>
