@@ -1,10 +1,6 @@
 import sunbathingIcon from './media/appIcons/sunbathingIcon.png';
-import colorMixerIcon from './media/appIcons/colorMixerIcon.jpg';
 //import stickIcon from './media/appIcons/dunkIcon.png';
-import islandIcon from './media/appIcons/islandIcon.png';
-import popcornIcon from './media/appIcons/popcornIcon.png';
 import candyCubeIcon from './media/appIcons/candyCubeIcon.png';
-import snapIcon from './media/appIcons/snapIcon.png';
 import saveHerIcon from './media/appIcons/saveHerIcon.png';
 
 const header = {
@@ -72,93 +68,79 @@ const projects = [
         name: 'Easter Egg Runner',
         short_description: 'Egg clones in runner platform',
         description:
-            'Egg ',
+            'Eggs can fall into holes' +
+            'When egg are crack the visual is obi fluid',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
-        appIcon: popcornIcon,
+        //appIcon: popcornIcon,
         videoUrl: "https://vimeo.com/641927501",
         details: [
             "Development platform: Unity",
             "Development time: ~3 week",
+            "Unity asset: Obi fluid",
+            "Custom shaders and effects",
         ],
     },
     {
         name: 'Bride To Be',
-        short_description: 'Merge the islands and defeat the boss',
+        short_description: 'Bride in runner platform',
         description:
-            'Mini strategy game in which you control little islands that carry your army. ' +
-            'Pick up volcano island and merge it with forest, the forest burns down and damagest the enemy. ' +
-            'Pick up waterfall island and merge it with the volcano, your allies heal up and join your army. ' +
-            'Follow the correct order of merges to build the biggest army possible. ' +
-            'Only then you will able to defeat the big boss at the end',
+            'Main Goal is collecting wools and flowers till the level ending ' +
+            'Part of Bride dress is obi rope',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
-        appIcon: islandIcon,
-        videoUrl: "https://vimeo.com/615724306",
+        //appIcon: islandIcon,
+        videoUrl: "https://vimeo.com/641928432",
         details: [
             "Development platform: Unity",
-            "Development time: ~3 weeks",
-            "Mostly collider based logic",
-            "Custom shaders and effects",
-            "Not really successful to convey what type of island is useful for what, lacking in the aspect of game design"
+            "Development time: ~2 month",
+            "Unity Asset: Obi Rope"
         ],
     },
     {
         name: 'Pusher Escape',
-        short_description: 'Get the perfect tan',
+        short_description: 'Push enemies with objects',
         description:
-            'A summer themed game where you try to get as much sunlight as possible. ' +
-            'Each level begins with a sunscreen phase, you have to rub the sunscreen fast to move on.' +
-            ' Then the tanning phases begin, you have to avoid the shadows to tan the character properly.' +
-            ' In addition, some random objects may come into play and try to block your sun.' +
-            ' At the end how much sun tan you got is calculated and a success ratio is determined.',
+            'Objects that player can hold gets bigger in time ' +
+            'Player can push enemies with those objects',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
         appIcon: sunbathingIcon,
-        videoUrl: "https://vimeo.com/637362033",
+        videoUrl: "https://vimeo.com/642220080",
         details: [
             "Development platform: Unity",
             "Development time: ~3 weeks",
-            "relied heavily on Inverse Kinematics",
-            "contributed heavily to the custom shader created by the Technical Artist",
-            "custom tanning made possible by manipulating vertex color of the mesh",
-            "tan % calculated by finding out the ratio of tanned vertices",
+            "Nav Mesh for Enemies",
         ],
     },
     {
         name: 'Take a Photo',
-        short_description: 'Get rid of annoying flies',
+        short_description: 'Move the Girl to right position',
         description:
-            'Flies are especially annoying in the summer. ' +
-            'Help the old lady kill some flies by slapping, spraying or throwing slippers at them. ',
+            'We can control girls body parts' +
+            'Main goal is dragging the girl into right poses',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
-        appIcon: snapIcon,
-        videoUrl: "https://vimeo.com/615725220",
+        // appIcon: snapIcon,
+        videoUrl: "https://vimeo.com/642219604",
         details: [
             "Development platform: Unity",
-            "Development time: ~1 weeks",
-            "Fun little game with cute grandma and custom made flies",
-            "Although visually decent, the gameplay was hard due to the controls"
+            "Development time: ~3 weeks",
+            "Unity Asset: FinalIk",
         ],
     },
     {
         name: 'Grab Your Meal',
-        short_description: 'Mix the colors to reach the destination',
+        short_description: 'Collecting the right amount of food',
         description:
-            'Each level has a target color as a destination.' +
-            ' The purpose is to draw a line passing through correct colors to reach the target.' +
-            ' While passing through each color, the color of the line gradually mixex towards the combination of all colors touched so far.' +
-            ' If any of the obstacles laying around is touched, you have to start over.',
+            'Goal is reaching the right amount of food before enemies take them',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
-        appIcon: colorMixerIcon,
-        videoUrl: "https://vimeo.com/615724233",
+        //appIcon: colorMixerIcon,
+        videoUrl: "https://vimeo.com/642219983",
         details: [
             "Development platform: Unity",
             "Development time: ~1 week",
-            "relied on custom shader for showing the drawn line with brush strokes",
-            "color mixing is attempted to represent how water colors actually mix in real life",
         ],
     },
     {
@@ -173,7 +155,7 @@ const projects = [
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
         appIcon: candyCubeIcon,
-        videoUrl: "https://vimeo.com/615724190",
+        videoUrl: "https://vimeo.com/641930163",
         details: [
             "Development platform: Unity",
             "Development time: ~1 week",
@@ -193,7 +175,7 @@ const projects = [
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
         appIcon: saveHerIcon,
-        videoUrl: "https://vimeo.com/615724585",
+        videoUrl: "https://vimeo.com/642220364",
         details: [
             "Development platform: Unity",
             "Development time: ~2 weeks",
