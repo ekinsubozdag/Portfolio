@@ -1,32 +1,34 @@
 import sunbathingIcon from './media/appIcons/sunbathingIcon.png';
 import colorMixerIcon from './media/appIcons/colorMixerIcon.jpg';
-//import stickIcon from './media/appIcons/dunkIcon.png';
+import dunkIcon from './media/appIcons/dunkIcon.png';
 import islandIcon from './media/appIcons/islandIcon.png';
 import popcornIcon from './media/appIcons/popcornIcon.png';
 import candyCubeIcon from './media/appIcons/candyCubeIcon.png';
+import siegeHeroIcon from './media/appIcons/siegeHeroIcon.png';
 import snapIcon from './media/appIcons/snapIcon.png';
 import saveHerIcon from './media/appIcons/saveHerIcon.png';
 import torchMasterIcon from './media/appIcons/torchMasterIcon.jpg';
 
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://ekinsubozdag.github.io',
-  title: 'Ekinsu Bozdag',
+  homepage: 'https://mertcandan.github.io',
+  title: 'Omer Mert Candan',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'Ekinsu Bozdag',
+  name: 'Omer Mert Candan',
   role: 'Game Developer',
   description:
   [
-    'High School - Ankara Atatürk \'11',
-    'B.S. in CS - Bilkent University \'15',
+    'High School - Robert College \'11',
+    'B.S. in CS - Sabanci University \'15',
+    'M.S. in CS - Sabanci University \'17',
   ],
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://www.linkedin.com/in/ekinsu-bozda%C4%9F-a0892b167',
-    github: 'https://github.com/ekinsubozdag',
+    linkedin: 'https://www.linkedin.com/in/ömer-mert-candan',
+    github: 'https://github.com/mertcandan',
   },
 }
 
@@ -34,39 +36,43 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Stick Wizard Game',
-    short_description: 'Defeat ghost with drawing their signs.',
+    name: 'Dribble Dunk',
+    short_description: 'Defeat your opponent with your dunks',
     description:
-      'Random number of ghosts comes next to the player.' +
-      'Levels have multiple stages of ghost attack.' +
-      'Defeat them by drawing particular sign on their head.' +
-      'When ghost come closer to the players area before drawing level fails. ' +
+      'Fast paced basketball game where you control a trio of players to get through the opponents. ' +
+      'Time your passes right or you lose the ball and it\'s game over. ' +
+      'If your timing is a little bit off your pass may get through but your player gets tackled and eliminated. ' +
+      'You can choose to go for a 3-point shot, which is a mini-game itself. ' +
       'Reaching the opponent\'s area enables dunk mode where you can get style points and make a slam dunk.',
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    //appIcon: stickIcon,
-    videoUrl: "https://vimeo.com/641868531",
+    appIcon: dunkIcon,
+    videoUrl: "https://vimeo.com/637362738",
     details: [
       "Development platform: Unity",
-      "Development time: ~2 week",
-      'had a reference one of Google halloween mini game',
+      "Development time: ~2 months",
+      'was in a 3 developer team working on opponent players',
+      'had a reference soccer game and tried to copy the mechanic from it',
+      'in later phases, worked on 3pt mini game, UI, A/B testing firebase code, save system, level generation system'
     ],
   },
   {
-    name: 'Foresight Game',
-    short_description: 'Tap in true position',
+    name: 'Siege Hero',
+    short_description: 'Destroy the enemy army',
     description:
-      'Every level has different scenerio' +
-      'Levels have stages,character animate different poses in stages' +
-      'Game aim is tapping on the right time' ,
+      'You control a group of soldiers consisting of two types: infantry and cavalry.' +
+      ' Infantry is worth 1 point, whereas cavalry units are worth 2 points.' +
+      ' The purpose is to defeat the enemy groups and gather their soldiers into your army.' +
+      ' Each level has a correct order of battles in order to be able to pass them',
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-   // appIcon: siegeHeroIcon,
-    videoUrl: "https://vimeo.com/641925710",
+    appIcon: siegeHeroIcon,
+    videoUrl: "https://vimeo.com/615725042",
     details: [
       "Development platform: Unity",
-      "Development time: ~2 month",
-      "I worked with unity timeline feature in this game",
+      "Development time: ~1 week",
+      "relied on NavMesh for AI pathfinding and movement",
+      "unfortunately not representing actual gameplay since developed for a short ad video in mind",
     ],
   },
   {
@@ -233,18 +239,21 @@ const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
   'C#',
+  'Python',
   'Unity',
   'HTML',
   'CSS',
   'JavaScript',
   'React',
+  'Redux',
+  'React-Native',
   'Git',
   'Java',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'ekinzu09@gmail.com',
+  email: 'omercandan7@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
