@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.70e67104.chunk.css",
+    "main.js": "/Portfolio/static/js/main.f4ee4b8e.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.f4ee4b8e.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.eb6781d5.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.eb6781d5.js.map",
+    "static/js/2.d33e1431.chunk.js": "/Portfolio/static/js/2.d33e1431.chunk.js",
+    "static/js/2.d33e1431.chunk.js.map": "/Portfolio/static/js/2.d33e1431.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.70e67104.chunk.css.map": "/Portfolio/static/css/main.70e67104.chunk.css.map",
+    "static/js/2.d33e1431.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.d33e1431.chunk.js.LICENSE.txt",
+    "static/media/candyCubeIcon.0cd06b28.png": "/Portfolio/static/media/candyCubeIcon.0cd06b28.png",
+    "static/media/colorMixerIcon.931c0867.jpg": "/Portfolio/static/media/colorMixerIcon.931c0867.jpg",
+    "static/media/islandIcon.e611002f.png": "/Portfolio/static/media/islandIcon.e611002f.png",
+    "static/media/popcornIcon.bdf0ca9f.png": "/Portfolio/static/media/popcornIcon.bdf0ca9f.png",
+    "static/media/saveHerIcon.13cd8e79.png": "/Portfolio/static/media/saveHerIcon.13cd8e79.png",
+    "static/media/snapIcon.4d5a02d9.png": "/Portfolio/static/media/snapIcon.4d5a02d9.png",
+    "static/media/sunbathingIcon.e8f00913.png": "/Portfolio/static/media/sunbathingIcon.e8f00913.png",
+    "static/media/torchMasterIcon.2435e9b8.jpg": "/Portfolio/static/media/torchMasterIcon.2435e9b8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb6781d5.js",
+    "static/js/2.d33e1431.chunk.js",
+    "static/css/main.70e67104.chunk.css",
+    "static/js/main.f4ee4b8e.chunk.js"
+  ]
+}
