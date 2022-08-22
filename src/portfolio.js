@@ -135,7 +135,7 @@ const projects = [
         ],
     },
     {
-        name: 'Grab Your Meal',
+        name: 'Grab Meals',
         short_description: 'Collecting the right amount of food',
         description:
             'Goal is reaching the right amount of food before enemies take them',
