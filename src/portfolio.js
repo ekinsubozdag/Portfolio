@@ -7,6 +7,12 @@ import zombieIcon from './media/appIcons/zombieIcon.png';
 import brideIcon from './media/appIcons/brideIcon.png';
 import foreIcon from './media/appIcons/foreIcon.png';
 import grabIcon from './media/appIcons/grabIcon.png';
+import boonieIcon from './media/appIcons/boonieIcon.png';
+import sewIcon from './media/appIcons/sewIcon.png';
+import cashIcon from './media/appIcons/cashIcon.png';
+import colormixIcon from './media/appIcons/colormixIcon.png';
+import colorshotsIcon from './media/appIcons/colorshotsIcon.png';
+import coloridleIcon from './media/appIcons/coloridleIcon.png';
 
 const header = {
     // all the properties are optional - can be left empty or deleted
@@ -34,6 +40,103 @@ const projects = [
     // projects can be added an removed
     // if there are no projects, Projects section won't show up
     {
+        name: 'Color Mix Idle',
+        short_description: 'Arcade idle make up company.',
+        description:
+            'Mix the colors and try to make bestseller color for your products.' +
+            'Take the color tubes from the source tanks, attach them to the mixer tanks and produce different makeup products.' +
+            'Sell make up prouducts to your customers.' +
+            'Keeping up to produce and collect money to unlock different types of makeup products' ,
+        sourceCode: 'https://github.com',
+        livePreview: 'https://github.com',
+        appIcon: coloridleIcon,
+        videoUrl: "https://vimeo.com/741862553",
+        details: [
+            "Development platform: Unity",
+            "Development time: 1 month",
+            'Tool: Liquid shader',
+        ],
+    },
+    {
+        name: 'Color Mixer Puzzle',
+        short_description: 'ASMR color mix puzzle game',
+        description:
+            'Mix colors with the color tubes and try to find the perfect match!' ,
+        sourceCode: 'https://github.com',
+        livePreview: 'https://github.com',
+        appIcon: colormixIcon,
+        videoUrl: "https://vimeo.com/741872406",
+        details: [
+            "Development platform: Unity",
+            "Development time: 2 weeks",
+            'Tool: Liquid Shader, Ripple Shader, Dynamic Bone, Final Ik',
+        ],
+    },
+    {
+        name: 'Colorshots',
+        short_description: 'Puzzle game',
+        description:
+            'Swipe the glasses, let them fall into each other.' +
+            'Your aim is to match the same colors' ,
+        sourceCode: 'https://github.com',
+        livePreview: 'https://github.com',
+        appIcon: colorshotsIcon,
+        videoUrl: "https://vimeo.com/741863101",
+        details: [
+            "Development platform: Unity",
+            "Development time: 2 weeks",
+            'Tool: Liquid Shader',
+        ],
+    },
+    {
+        name: 'Sew Master',
+        short_description: 'Idle management game',
+        description:
+            'You manage your customers by selling them the right colored clothes. ' +
+            'You have sewing machines and different colored ball of yarns.'  +
+            'You should only attach the right colors to the machines. '  +
+            'Upgrade your machines to produce different textured clothes ' ,
+        sourceCode: 'https://github.com',
+        livePreview: 'https://github.com',
+        appIcon: sewIcon,
+        videoUrl: "https://vimeo.com/741861905",
+        details: [
+            "Development platform: Unity",
+            "Development time: 2 weeks",
+            'Tool: Cloth Color Shader',
+        ],
+    },
+    {
+        name: 'CashGun3D',
+        short_description: 'Shooter runner game',
+        description:
+            'You have to spend money or find weapons to break down the obstacles. ' +
+            'Buy and dress cloths with destroying the obstacles' ,
+        sourceCode: 'https://github.com',
+        livePreview: 'https://github.com',
+        appIcon: cashIcon,
+        videoUrl: "https://vimeo.com/741862370",
+        details: [
+            "Development platform: Unity",
+            "Development time: 2 weeks",
+        ],
+    },
+    {
+        name: 'Couple Shooter',
+        short_description: 'Shooter runner game with swipe and rotate',
+        description:
+            'Swipe couple to rotate right direction' +
+            'Upgrade weapons for different range and speed' ,
+        sourceCode: 'https://github.com',
+        livePreview: 'https://github.com',
+        appIcon: boonieIcon,
+        videoUrl: "https://vimeo.com/741862180",
+        details: [
+            "Development platform: Unity",
+            "Development time: 2 weeks",
+        ],
+    },
+     {
         name: 'Stick Wizard Game',
         short_description: 'Defeat ghost with drawing their signs.',
         description:
@@ -132,36 +235,6 @@ const projects = [
             "Development platform: Unity",
             "Development time: ~3 weeks",
             "Unity Asset: FinalIk",
-        ],
-    },
-    {
-        name: 'Grab Meals',
-        short_description: 'Collecting the right amount of food',
-        description:
-            'Goal is reaching the right amount of food before enemies take them',
-        sourceCode: 'https://github.com',
-        livePreview: 'https://github.com',
-        appIcon: grabIcon,
-        videoUrl: "https://vimeo.com/642219983",
-        details: [
-            "Development platform: Unity",
-            "Development time: ~1 week",
-        ],
-    },
-    {
-        name: 'Dont Let Cross',
-        short_description: 'Tape the door to block the enemies ',
-        description:
-            'Goal is keeping enemies behind the door' +
-            'Levels have different stages',
-        sourceCode: 'https://github.com',
-        livePreview: 'https://github.com',
-        appIcon: dontIcon,
-        videoUrl: "https://vimeo.com/641930163",
-        details: [
-            "Development platform: Unity",
-            "Development time: ~3 week",
-            "Unity Assets: Obi Rope, Puppet Master",
         ],
     },
     {
