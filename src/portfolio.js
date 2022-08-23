@@ -13,6 +13,7 @@ import cashIcon from './media/appIcons/cashIcon.png';
 import colormixIcon from './media/appIcons/colormixIcon.png';
 import colorshotsIcon from './media/appIcons/colorshotsIcon.png';
 import coloridleIcon from './media/appIcons/coloridleIcon.png';
+import nonIcon from './media/appIcons/nonIcon.png';
 
 const header = {
     // all the properties are optional - can be left empty or deleted
@@ -134,6 +135,21 @@ const projects = [
         details: [
             "Development platform: Unity",
             "Development time: 2 weeks",
+        ],
+    },
+    {
+        name: 'Non-stop Adventures',
+        short_description: '2D choose story game',
+        description:
+            'Non-stop adventure is a 2D story game' +
+            'Aim is choosing the right option to not fail' ,
+        sourceCode: 'https://github.com',
+        livePreview: 'https://github.com',
+        appIcon: nonIcon,
+        videoUrl: "https://vimeo.com/742272025",
+        details: [
+            "Development platform: Unity",
+            "Development time: 2 months",
         ],
     },
      {
