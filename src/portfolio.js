@@ -42,12 +42,12 @@ const projects = [
     // if there are no projects, Projects section won't show up
     {
         name: 'Color Mix Idle',
-        short_description: 'Arcade idle make up company.',
+        short_description: 'Arcade idle make up company',
         description:
             'Mix the colors and try to make bestseller color for your products.' +
             'Take the color tubes from the source tanks, attach them to the mixer tanks and produce different makeup products.' +
             'Sell make up prouducts to your customers.' +
-            'Keeping up to produce and collect money to unlock different types of makeup products' ,
+            'Keeping up to produce and collect money to unlock different types of makeup products',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
         appIcon: coloridleIcon,
@@ -62,7 +62,7 @@ const projects = [
         name: 'Color Mixer Puzzle',
         short_description: 'ASMR color mix puzzle game',
         description:
-            'Mix colors with the color tubes and try to find the perfect match!' ,
+            'Mix colors with the color tubes and try to find the perfect match!',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
         appIcon: colormixIcon,
@@ -78,7 +78,7 @@ const projects = [
         short_description: 'Puzzle game',
         description:
             'Swipe the glasses, let them fall into each other.' +
-            'Your aim is to match the same colors' ,
+            'Your aim is to match the same colors',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
         appIcon: colorshotsIcon,
@@ -94,9 +94,9 @@ const projects = [
         short_description: 'Idle management game',
         description:
             'You manage your customers by selling them the right colored clothes. ' +
-            'You have sewing machines and different colored ball of yarns.'  +
-            'You should only attach the right colors to the machines. '  +
-            'Upgrade your machines to produce different textured clothes ' ,
+            'You have sewing machines and different colored ball of yarns.' +
+            'You should only attach the right colors to the machines. ' +
+            'Upgrade your machines to produce different textured clothes ',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
         appIcon: sewIcon,
@@ -112,7 +112,7 @@ const projects = [
         short_description: 'Shooter runner game',
         description:
             'You have to spend money or find weapons to break down the obstacles. ' +
-            'Buy and dress cloths with destroying the obstacles' ,
+            'Buy and dress cloths with destroying the obstacles',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
         appIcon: cashIcon,
@@ -127,7 +127,7 @@ const projects = [
         short_description: 'Shooter runner game with swipe and rotate',
         description:
             'Swipe couple to rotate right direction' +
-            'Upgrade weapons for different range and speed' ,
+            'Upgrade weapons for different range and speed',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
         appIcon: boonieIcon,
@@ -142,7 +142,7 @@ const projects = [
         short_description: '2D choose story game',
         description:
             'Non-stop adventure is a 2D story game' +
-            'Aim is choosing the right option to not fail' ,
+            'Aim is choosing the right option to not fail',
         sourceCode: 'https://github.com',
         livePreview: 'https://github.com',
         appIcon: nonIcon,
@@ -152,7 +152,7 @@ const projects = [
             "Development time: 2 months",
         ],
     },
-     {
+    {
         name: 'Stick Wizard Game',
         short_description: 'Defeat ghost with drawing their signs.',
         description:
