@@ -90,24 +90,6 @@ const projects = [
         ],
     },
     {
-        name: 'Sew Master',
-        short_description: 'Idle management game',
-        description:
-            'You manage your customers by selling them the right colored clothes. ' +
-            'You have sewing machines and different colored ball of yarns.' +
-            'You should only attach the right colors to the machines. ' +
-            'Upgrade your machines to produce different textured clothes ',
-        sourceCode: 'https://github.com',
-        livePreview: 'https://github.com',
-        appIcon: sewIcon,
-        videoUrl: "https://vimeo.com/741861905",
-        details: [
-            "Development platform: Unity",
-            "Development time: 2 weeks",
-            'Tool: Cloth Color Shader',
-        ],
-    },
-    {
         name: 'CashGun3D',
         short_description: 'Shooter runner game',
         description:
@@ -186,55 +168,6 @@ const projects = [
             "Development platform: Unity",
             "Development time: ~2 month",
             "I worked with unity timeline feature in this game",
-        ],
-    },
-    {
-        name: 'Easter Egg Runner',
-        short_description: 'Egg clones in runner platform',
-        description:
-            'Eggs can fall into holes' +
-            'When egg are crack the visual is obi fluid',
-        sourceCode: 'https://github.com',
-        livePreview: 'https://github.com',
-        appIcon: easterIcon,
-        videoUrl: "https://vimeo.com/641927501",
-        details: [
-            "Development platform: Unity",
-            "Development time: ~3 week",
-            "Unity asset: Obi fluid",
-            "Custom shaders and effects",
-        ],
-    },
-    {
-        name: 'Bride To Be',
-        short_description: 'Bride in runner platform',
-        description:
-            'Main Goal is collecting wools and flowers till the level ending ' +
-            'Part of Bride dress is obi rope',
-        sourceCode: 'https://github.com',
-        livePreview: 'https://github.com',
-        appIcon: brideIcon,
-        videoUrl: "https://vimeo.com/641928432",
-        details: [
-            "Development platform: Unity",
-            "Development time: ~2 month",
-            "Unity Asset: Obi Rope"
-        ],
-    },
-    {
-        name: 'Pusher Escape',
-        short_description: 'Push enemies with objects',
-        description:
-            'Objects that player can hold gets bigger in time ' +
-            'Player can push enemies with those objects',
-        sourceCode: 'https://github.com',
-        livePreview: 'https://github.com',
-        appIcon: pusherIcon,
-        videoUrl: "https://vimeo.com/642220080",
-        details: [
-            "Development platform: Unity",
-            "Development time: ~3 weeks",
-            "Nav Mesh for Enemies",
         ],
     },
     {
