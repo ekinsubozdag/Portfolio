@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.391c90e9.chunk.css",
-    "main.js": "/Portfolio/static/js/main.db5b8c0d.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.db5b8c0d.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.d35107b0.chunk.css",
+    "main.js": "/Portfolio/static/js/main.5ec709fc.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.5ec709fc.chunk.js.map",
     "reactPlayerDailyMotion.js": "/Portfolio/static/js/reactPlayerDailyMotion.23f48954.chunk.js",
     "reactPlayerDailyMotion.js.map": "/Portfolio/static/js/reactPlayerDailyMotion.23f48954.chunk.js.map",
     "reactPlayerFacebook.js": "/Portfolio/static/js/reactPlayerFacebook.2ffa9781.chunk.js",
@@ -33,11 +33,11 @@
     "reactPlayerYouTube.js.map": "/Portfolio/static/js/reactPlayerYouTube.232a9686.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.60b42304.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.60b42304.js.map",
-    "static/js/16.b0979a66.chunk.js": "/Portfolio/static/js/16.b0979a66.chunk.js",
-    "static/js/16.b0979a66.chunk.js.map": "/Portfolio/static/js/16.b0979a66.chunk.js.map",
+    "static/js/16.95c87085.chunk.js": "/Portfolio/static/js/16.95c87085.chunk.js",
+    "static/js/16.95c87085.chunk.js.map": "/Portfolio/static/js/16.95c87085.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.391c90e9.chunk.css.map": "/Portfolio/static/css/main.391c90e9.chunk.css.map",
-    "static/js/16.b0979a66.chunk.js.LICENSE.txt": "/Portfolio/static/js/16.b0979a66.chunk.js.LICENSE.txt",
+    "static/css/main.d35107b0.chunk.css.map": "/Portfolio/static/css/main.d35107b0.chunk.css.map",
+    "static/js/16.95c87085.chunk.js.LICENSE.txt": "/Portfolio/static/js/16.95c87085.chunk.js.LICENSE.txt",
     "static/media/boonieIcon.b6207fd4.png": "/Portfolio/static/media/boonieIcon.b6207fd4.png",
     "static/media/brideIcon.faafcb21.png": "/Portfolio/static/media/brideIcon.faafcb21.png",
     "static/media/cashIcon.fd6aba60.png": "/Portfolio/static/media/cashIcon.fd6aba60.png",
@@ -57,8 +57,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.60b42304.js",
-    "static/js/16.b0979a66.chunk.js",
-    "static/css/main.391c90e9.chunk.css",
-    "static/js/main.db5b8c0d.chunk.js"
+    "static/js/16.95c87085.chunk.js",
+    "static/css/main.d35107b0.chunk.css",
+    "static/js/main.5ec709fc.chunk.js"
   ]
 }

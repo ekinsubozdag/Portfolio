@@ -17,13 +17,13 @@ import nonIcon from './media/appIcons/nonIcon.png';
 
 const header = {
     // all the properties are optional - can be left empty or deleted
-    homepage: 'https://ekinsubozdag.github.io',
-    title: 'Ekinsu Bozdag',
+    homepage: 'https://ekinsubozdag.github.io/Portfolio/',
+    title: 'Ekinsu Bozdağ',
 }
 
 const about = {
     // all the properties are optional - can be left empty or deleted
-    name: 'Ekinsu Bozdag',
+    name: 'Ekinsu Bozdağ',
     role: 'Game Developer',
     description:
         [
@@ -208,18 +208,13 @@ const projects = [
 const skills = [
     // skills can be added or removed
     // if there are no skills, Skills section won't show up
-    'C#',
-    'Unity',
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'Git',
-    'Java',
 ]
 
 const contact = {
     // email is optional - if left empty Contact section won't show up
     email: 'ekinzu09@gmail.com',
+    description: 'ekinzu09@gmail.com',
+
 }
 
 export {header, about, projects, skills, contact}
