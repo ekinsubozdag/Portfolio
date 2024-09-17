@@ -15,7 +15,7 @@ const About = () => {
         <p className='about__desc'>{description.map((line) => <p> {line} </p>)}</p>
 
         <div className='about__contact center'>
-            {resume && (<a href='/Portfolio/EkinsuBozdag_CV.pdf' target="_blank" download>
+            {resume && (<a href='/Portfolio/EkinsuBozdagCV.pdf' target="_blank" download>
           <span type='button' className='btn btn--outline'>
               Resume
             </span>
